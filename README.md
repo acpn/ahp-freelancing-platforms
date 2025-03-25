@@ -1,7 +1,7 @@
-# Talent Allocation Optimizer
+# Talent Matching Optimizer
 
 ## Overview
-This Python-based project implements a talent allocation optimizer to match freelancers with job demands. It leverages the **Analytic Hierarchy Process (AHP)** for multi-criteria decision-making, enabling precise selection of the best-fit talent for each job. By integrating tools like **SerpAPI** to fetch job data and **ChatGPT API** for processing free text, the system provides a robust solution for optimizing human resource allocation.
+This Python-based project implements a talent matching optimizer to match freelancers with job demands. It leverages the **Analytic Hierarchy Process (AHP)** for multi-criteria decision-making, enabling precise selection of the best-fit talent for each job. By integrating tools like **SerpAPI** to fetch job data and **ChatGPT API** for processing free text, the system provides a robust solution for optimizing human resource allocation.
 
 The project was developed as part of an MBA thesis focused on optimizing resource allocation using **Operational Research** and **Integer Linear Programming** techniques.
 
@@ -33,10 +33,9 @@ The project was developed as part of an MBA thesis focused on optimizing resourc
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/talent-allocation-optimizer.git
+   git clone https://github.com/acpn/ahp-freelancing-platforms.git
    
-   cd talent-allocation-optimizer
-
+   cd ahp-freelancing-platforms
 2. Install dependencies
 
   ```bash
