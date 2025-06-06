@@ -162,7 +162,7 @@ def allocate(df_jobs: pd.DataFrame,
                         'talent_english_level': talent.english_level,
                         'talent_experience_years': talent.experience_years,
                         'number_of_matched_skills': number_of_matched_skills,
-                        'matching_skills': matching_skills,
+                        'matching_skills': ', '.join(matching_skills),
                         'has_main_skill': has_main_skill
                     })
 
